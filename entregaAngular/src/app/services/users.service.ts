@@ -25,6 +25,12 @@ export class UsersService {
     
   }
 
+  getUser(){
+
+    return this.users;
+
+  }
+
 
   checkUser(user:string, password:string){
 

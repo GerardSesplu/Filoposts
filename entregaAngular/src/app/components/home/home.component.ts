@@ -16,20 +16,41 @@ export class HomeComponent implements OnInit {
 
     this.posts = _servicio.getPosts();
     console.log(this.posts);
+
+    // this.buttonFunction;
     
   }
 
   ngOnInit() {
   }
 
-  readMore(id){
-    if(id == 'mas'){
-      document.getElementById('desplegable').style.display = "block";
-      document.getElementById('mas').style.display = "none";
-    } else {
-      document.getElementById('desplegable').style.display = "none";
-      document.getElementById('mas').style.display = "inline";
-    }
-  }
+
+  // buttonFunction(): void {
+
+  //   var buttonMore: any;
+  //   var buttonLess: any;
+
+  //   buttonMore = document.getElementById('mas');
+  //   buttonMore.addEventListener('click', this.buttonMoreClick());
+
+  //   buttonLess = document.getElementById('menos');
+  //   buttonLess.addEventListener('click', this.buttonLessClick());
+
+  // }
+  
+
+  // buttonMoreClick(): void { 
+
+  //   document.getElementById('desplegable').style.display = 'block';
+  //   document.getElementById('mas').style.display = 'none';
+  //   document.getElementById('menos').style.display = 'block';
+
+  // }
+  
+  // buttonLessClick(): void {
+  //   document.getElementById('desplegable').style.display = 'none';
+  //   document.getElementById('mas').style.display = 'block';
+  //   document.getElementById('menos').style.display = 'none';
+  // }
 
 }
