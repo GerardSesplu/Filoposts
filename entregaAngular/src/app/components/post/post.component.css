@@ -1,0 +1,54 @@
+form{
+    display: grid;
+    margin-top: 40px
+}
+label{
+    font-size: 18px;
+}
+input{
+    width: 400px;
+    height: 30px;
+    padding-left: 5px;
+    font-size: 15px;
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+#input-text{
+    height: 300px;
+    overflow-y: scroll;   
+}
+
+button:hover{
+    width: 100px;
+    background-color: rgb(204, 195, 195);
+    border: 1px black solid;
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    height: 30px;
+}
+button{
+    width: 100px;
+    background-color: gray;
+    border: 1px black solid;
+    border-radius: 3px;
+    color: white;
+    height: 30px;
+}
+
+select{
+    
+    width: 410px;
+    height: 30px;
+    padding-left: 5px;
+    font-size: 15px;
+    margin-bottom: 15px;
+    font-weight: 300;
+    
+}
+textarea{
+    margin-bottom: 20px;
+    padding: 10px;
+    font-weight: 300;
+    font-size: 16jpx;
+    
+}

@@ -1,0 +1,21 @@
+<ul>
+    <li *ngFor="let item of posts">
+
+        
+        <div>
+            <div class="title-tag"><h3>{{item.title}}</h3><p id="tag">{{item.tag}}</p></div>
+            <p class="author">{{item.author}}</p>
+        </div>
+        <br>
+
+        <p class="principal-text">{{item.text | readMore}}</p>
+        <a id="mas" href="#" onclick="readMore('mas')">Leer más</a>
+        <p class="desplegble">{{item.text | readless}}</p>
+        <a id="menos" href="#" onclick="readMore('menos')">Leer menos</a>
+        
+        <hr>
+        
+        
+    </li>
+</ul>
+

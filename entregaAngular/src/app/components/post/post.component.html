@@ -1,0 +1,44 @@
+<main>
+    <form autocomplete="off" [formGroup]="publication" (ngSubmit)="saveForm()">
+
+        <label>Title</label>
+        <input 
+            id="input-title"
+            type="text"
+            placeholder="write the title of the text"
+            formControlName="title"
+            >
+        
+        <label>Author</label>
+        <input 
+            id="input-author"
+            type="text"
+            placeholder="write the author of the text"
+            formControlName="author"
+            >
+
+        <label>Temática</label>
+        <select name="" formControlName="tag">
+            <option disabled selected>Select a theme</option>
+            <option>Política</option>
+            <option>Metafísica</option>
+            <option>Economía</option>
+            <option>Mundo</option>
+            <option>Arte</option>
+            <option>Cultura</option>
+        </select>
+        
+        <label>Text</label>
+        <textarea 
+            rows="10"
+            cols="50"
+            id="input-text"
+            type="text"
+            formControlName="text"
+            placeholder="Write or copy the text"
+            >
+        </textarea>
+
+        <button type="submit">Send</button>
+    </form>
+</main>

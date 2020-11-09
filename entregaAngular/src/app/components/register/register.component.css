@@ -1,0 +1,40 @@
+form{
+    display: grid;
+    margin-top: 40px
+}
+
+input{
+    width: 400px;
+    height: 30px;
+    padding-left: 5px;
+    font-size: 15px;
+    margin-bottom: 25px;
+    font-weight: 300;
+}
+#input-text{
+    height: 300px;
+    overflow-y: scroll;   
+}
+
+button:hover{
+    width: 100px;
+    background-color: rgb(204, 195, 195);
+    border: 1px black solid;
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    height: 30px;
+}
+button{
+    width: 100px;
+    background-color: gray;
+    border: 1px black solid;
+    border-radius: 3px;
+    color: white;
+    height: 30px;
+}
+
+h2{
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+

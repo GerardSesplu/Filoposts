@@ -1,0 +1,54 @@
+<main>
+    <form autocomplete="off" [formGroup]="register" (ngSubmit)="saveForm()">
+
+        <h2>Create a new account</h2>
+
+        <input 
+            id="input-title"
+            type="text"
+            placeholder="User Name"
+            formControlName="userName"
+            >
+
+        <input 
+            id="input-title"
+            type="text"
+            placeholder="First Name"
+            formControlName="firstName"
+            >
+        <input 
+            id="input-title"
+            type="text"
+            placeholder="Last Name"
+            formControlName="lastName"
+            >
+
+        <input 
+            id="input-title"
+            type="text"
+            placeholder="Email"
+            formControlName="email"
+            >
+        <input 
+            id="input-title"
+            type="text"
+            placeholder="Phone Number"
+            formControlName="phoneNumber"
+            >
+
+        <input 
+            id="input-title"
+            type="password"
+            placeholder="create a password"
+            formControlName="password"
+            >
+        <input 
+            id="input-title"
+            type="password"
+            placeholder="repeat the password"
+            formControlName="password2"
+            >
+        
+        <button type="submit">Send</button>
+    </form>
+</main>

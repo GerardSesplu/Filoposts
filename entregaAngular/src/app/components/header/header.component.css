@@ -1,0 +1,36 @@
+main{
+    min-width: 500px;
+    position: sticky;
+    top: 0; 
+    background-color: white;
+    
+    
+}
+div{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 200px auto;
+    height: 60px;
+}
+header{
+    line-height: 52px;
+}
+li{
+    float: left;
+    width: 100px;
+    list-style: none;
+    line-height: 60px;
+}
+hr{
+    margin-top: 10px;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: gray;
+}
+
+h1{
+    font-size: 40px;
+}
