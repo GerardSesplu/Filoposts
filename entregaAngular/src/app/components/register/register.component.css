@@ -1,10 +1,15 @@
+main{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
 form{
     display: grid;
     margin-top: 40px
 }
 
 input{
-    width: 400px;
+    width: 350px;
     height: 30px;
     padding-left: 5px;
     font-size: 15px;
@@ -36,5 +41,9 @@ button{
 h2{
     margin-bottom: 20px;
     font-weight: 500;
+}
+
+#rightForm{
+    height: fit-content;
 }
 
